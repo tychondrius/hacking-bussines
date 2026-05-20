@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | VladSec Audits</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  
+<header>
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <span class="logo">🛡️</span>
+      <span>VladSec Audits</span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html" class="">Home</a>
+      <a href="packages.html" class="">Packages</a>
+      <a href="process.html" class="">How it works</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <a class="btn btn-primary" href="contact.html">Request Audit</a>
+  </div>
+</header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="badge">✉️ Request an audit</div>
+        <h1>Contact form</h1>
+        <p>
+          Send your website URL and a short description of what you need. This demo form opens an email draft, so it works even before you connect hosting.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="form-card">
+          <form action="mailto:hello@yourbusiness.co.uk" method="post" enctype="text/plain">
+            <div>
+              <label for="name">Your name</label>
+              <input id="name" name="Name" type="text" placeholder="Your full name" required>
+            </div>
+
+            <div>
+              <label for="business">Business name</label>
+              <input id="business" name="Business" type="text" placeholder="Example: Airdrie Dental Clinic">
+            </div>
+
+            <div>
+              <label for="email">Email address</label>
+              <input id="email" name="Email" type="email" placeholder="you@example.com" required>
+            </div>
+
+            <div>
+              <label for="website">Website URL</label>
+              <input id="website" name="Website" type="url" placeholder="https://example.com">
+            </div>
+
+            <div>
+              <label for="package">Package interest</label>
+              <select id="package" name="Package">
+                <option>Starter Security Check</option>
+                <option>Business Security Audit</option>
+                <option>Advanced Audit</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="Message" placeholder="Tell me what you need checked, any concerns, and whether you prefer remote or local support."></textarea>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Send Enquiry →</button>
+            <p class="form-note">
+              Note: For a live website, this form should later be connected to a secure form handler, CRM, or WordPress contact form plugin.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+<footer>
+  <div class="container">
+    © 2026 VladSec Audits. Cybersecurity audits for small businesses in Scotland and remote UK clients.
+  </div>
+</footer>
+
+</body>
+</html>
