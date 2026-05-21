@@ -520,3 +520,21 @@ footer {
     padding: 24px;
   }
 }
+
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+.notice {
+  border: 1px solid rgba(34, 211, 238, .28);
+  background: rgba(34, 211, 238, .08);
+  color: var(--muted);
+  border-radius: 22px;
+  padding: 18px 20px;
+  margin-top: 28px;
+}
+@media (max-width: 900px) {
+  .grid-2 { grid-template-columns: 1fr; }
+}

@@ -20,17 +20,17 @@
       <a href="process.html" class="">How it works</a>
       <a href="contact.html" class="active">Contact</a>
     </nav>
-    <a class="btn btn-primary" href="contact.html">Request Audit</a>
+    <a class="btn btn-primary" href="contact.html">Request Quote</a>
   </div>
 </header>
 
   <main>
     <section class="page-hero">
       <div class="container">
-        <div class="badge">✉️ Request an audit</div>
+        <div class="badge">✉️ Request a quote</div>
         <h1>Contact form</h1>
         <p>
-          Send your website URL and a short description of what you need. This demo form opens an email draft, so it works even before you connect hosting.
+          Send your website URL, business idea or current problem. This demo form opens an email draft, so it works even before you connect hosting.
         </p>
       </div>
     </section>
@@ -55,8 +55,18 @@
             </div>
 
             <div>
-              <label for="website">Website URL</label>
+              <label for="website">Current website URL, if you have one</label>
               <input id="website" name="Website" type="url" placeholder="https://example.com">
+            </div>
+
+            <div>
+              <label for="service">Service interest</label>
+              <select id="service" name="Service">
+                <option>Cybersecurity audit</option>
+                <option>Front-end website creation</option>
+                <option>Website + security check</option>
+                <option>Not sure yet</option>
+              </select>
             </div>
 
             <div>
@@ -65,13 +75,16 @@
                 <option>Starter Security Check</option>
                 <option>Business Security Audit</option>
                 <option>Advanced Audit</option>
+                <option>Starter Website</option>
+                <option>Business Website</option>
+                <option>Website + Security Check</option>
                 <option>Not sure yet</option>
               </select>
             </div>
 
             <div>
               <label for="message">Message</label>
-              <textarea id="message" name="Message" placeholder="Tell me what you need checked, any concerns, and whether you prefer remote or local support."></textarea>
+              <textarea id="message" name="Message" placeholder="Tell me what you need: security audit, front-end website, number of pages, business type, preferred deadline, or any concerns."></textarea>
             </div>
 
             <button class="btn btn-primary" type="submit">Send Enquiry →</button>
@@ -86,7 +99,7 @@
   
 <footer>
   <div class="container">
-    © 2026 VladSec Audits. Cybersecurity audits for small businesses in Scotland and remote UK clients.
+    © 2026 VladSec Audits. Cybersecurity audits and front-end websites for small and medium businesses.
   </div>
 </footer>
 
